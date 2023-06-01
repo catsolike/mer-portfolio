@@ -1,0 +1,28 @@
+// #region Header
+$header__bg: #213E82;
+$header__el_hover: rgba(255, 255, 255, 0.2);
+// #endregion
+
+// #region Page
+$page__bg: #A9B9D7;
+// #endregion Page
+
+// #region Product Card
+$product-card__bg: #6B83B0;
+// #endregion 
+
+// #region Button == Btn
+$btn__bg: #200772;
+$btn__text-color: white;
+// #endregion
+
+// #region Scrollbar
+// цвет ползунка
+$slider-color: #ffcccc;  
+//  
+//цвет фона/пути под ползунком 
+$track-color: $page__bg; 
+
+// цвет границы ползунка
+$slider-border-color: rgb(102, 102, 153); 
+// #endregion
