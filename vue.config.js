@@ -7,5 +7,8 @@ module.exports = defineConfig({
         additionalData: '@import "@/style/global.scss";'
       }
     }
-  }
+  }, 
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/mer-portfolio/'
+  : '/'
 })
