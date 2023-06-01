@@ -6,7 +6,7 @@
         <input type="text" id="username" v-model="username" required>        
         <label for="password">Password:</label>
         <input type="password" id="password" v-model="password" required>
-        <my-btn type="submit" @click="butLogin">Login</my-btn>
+        <my-btn type="submit" @click="btnLogin">Login</my-btn>
         <my-btn type="submit" @click="butCancel">Cancel</my-btn>
       </form>        
   </div>
@@ -23,11 +23,11 @@ export default {
     };
   },
   methods: {
-    butLogin() {
+    btnLogin() {
       console.log('Login:', this.username, this.password);
     },
     butCancel(){
-      router.push('/aboutus');
+      router.push('/');
     }
   }
 };
